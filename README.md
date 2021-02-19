@@ -23,10 +23,13 @@ As given in the %%html<a href="https://colab.research.google.com/github/tensorfl
 ## Toy Hulk data
 I have collected 10 images of a toy hulk for training. The coco dataset does not contain toy hulk (or other toy superheros), so this is a novel class. 19 images are collected for testing the model.
 
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/Screenshot%202021-02-19%20092646.png)
+
 ## Annotate images with bounding boxes
 
 In this cell I have  annotated the toy hulks by drawing a box around the toy hulk in each image.   
 Click `next image` to go to the next image and `submit` when there are no more images.
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/annotated.png)
 
 ## Data Preparation for training
 The class annotations are added.Only one class is handled. Everything is converted to tensors, classes are converted to one-hot representations that the training loop expects. How the one-hot representation is done is better explained in the 'Toy_hulk_Detector.ipynb' present in this repository. 
@@ -37,4 +40,4 @@ As per the tutorial a single stage detection architecture (RetinaNet) is built a
 ## Conclusion
 The training takes very less time and the results are very impressive. This model can be extended to handle multiple classes.
 
-[![Demo CountPages alpha](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/VID-20210219-WA0008.mp4)](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/VID-20210219-WA0008.mp4)
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/VID-20210219-WA0008.mp4)
