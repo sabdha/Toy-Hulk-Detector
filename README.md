@@ -1,5 +1,7 @@
 # Toy-Hulk-Detector
 
+Notebook: Toy_Hulk_Detector.ipynb
+
 ## Prerequisites
 
 Google Colab  
@@ -41,3 +43,7 @@ As per the tutorial a single stage detection architecture (RetinaNet) is built a
 The training takes very less time and the results are very impressive. This model can be extended to handle multiple classes.
 
 Result: (https://github.com/sabdha/Toy-Hulk-Detector/blob/main/VID-20210219-WA0008.mp4)
+
+## References
+Most part of the code is taken from  
+https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb
