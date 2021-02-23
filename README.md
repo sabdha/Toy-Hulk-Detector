@@ -18,7 +18,7 @@ Install the Object Detection API
 Download the checkpoint and put it into models/research/object_detection/test_data/
 
 ## Problem Statement
-The new release of Tensorflow Object Detection API comes with a notebook showing us how to fine-tune a RetinaNet pre-trained model to detect rubber duckies with only 5 images and <5 minutes of training time in Google Colab. In this notebook, I have made use of this model to detect the images of toy hulk that I have collected. There are 10 images of hulk for training the model.
+The new release of Tensorflow Object Detection API comes with a notebook showing us how to fine-tune a RetinaNet pre-trained model to detect rubber duckies with only 5 images and <5 minutes of training time in Google Colab. In this notebook, I have made use of this model to detect the images of toy hulk that I have collected. There are 5 images of hulk for training the model.
 
 As given in the %%html<a href="https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb">Official Tutorial</a> , first import all the needed libraries and load the images. For labelling the images, there are two cells provided in the official tutorial. One of them has hardcoded labels while the other shows of a new OD API utility for Google Colab that allows you to label images. I have made use of the second technique to do the labelling.
 
