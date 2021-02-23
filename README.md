@@ -42,7 +42,10 @@ As per the tutorial a single stage detection architecture (RetinaNet) is built a
 ## Conclusion
 The training takes very less time and the results are very impressive. This model can be extended to handle multiple classes.
 
-Result: (https://github.com/sabdha/Toy-Hulk-Detector/blob/main/VID-20210219-WA0008.mp4)
+Result:   
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/result1.jpg)  
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/result2.jpg)
+
 
 ## References
 Most part of the code is taken from  
