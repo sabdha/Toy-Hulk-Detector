@@ -1,6 +1,6 @@
 # Toy-Hulk-Detector
 
-Notebook: Toy_Hulk_Detector.ipynb
+Notebook: Toy_Hulk_Detector_TensorflowAPI.ipynb
 
 ## Prerequisites
 
