@@ -40,7 +40,8 @@ The class annotations are added.Only one class is handled. Everything is convert
 As per the tutorial a single stage detection architecture (RetinaNet) is built and all but the classification layer at the top are restored (which will be automatically randomly initialized). A number of things in for the specific RetinaNet architecture at hand (including assuming that the image size will always be 640x640), however it is not difficult to generalize to other model configurations.
 
 ## Conclusion and Future works
-The training takes very less time and the results are very impressive. Best results can be obtained by training using the images taken at different background and lighting conditions. This model can be extended to handle multiple classes.
+The training takes very less time and the results are very impressive. The batch size was increased to 5 and reduced the number of batches for training.
+Best results can be obtained by training using the images taken at different background and lighting conditions. This model can be extended to handle multiple classes.
 
 Result:   
 ![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/result1.png)  
