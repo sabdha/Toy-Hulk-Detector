@@ -23,13 +23,13 @@ The new release of Tensorflow Object Detection API comes with a notebook showing
 As given in the %%html<a href="https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb">Official Tutorial</a> , first import all the needed libraries and load the images. For labelling the images, there are two cells provided in the official tutorial. One of them has hardcoded labels while the other shows of a new OD API utility for Google Colab that allows you to label images. I have made use of the second technique to do the labelling.
 
 ## Toy Hulk data
-I have collected 10 images of a toy hulk for training. The coco dataset does not contain toy hulk (or other toy superheros), so this is a novel class. 19 images are collected for testing the model.
+I have collected 10 images of a toy hulk for training. The coco dataset does not contain toy hulk (or other toy superheros), so this is a novel class. 20 images are collected for testing the model.
 
 ![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/Screenshot%202021-02-19%20092646.png)
 
 ## Annotate images with bounding boxes
 
-In this cell I have  annotated the toy hulks by drawing a box around the toy hulk in each image.   
+In this cell I have  annotated the toy hulks by drawing bounding box around the toy hulk in each image.   
 Click `next image` to go to the next image and `submit` when there are no more images.
 ![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/annotated.png)
 
@@ -39,8 +39,8 @@ The class annotations are added.Only one class is handled. Everything is convert
 ## Model and Weights
 As per the tutorial a single stage detection architecture (RetinaNet) is built and all but the classification layer at the top are restored (which will be automatically randomly initialized). A number of things in for the specific RetinaNet architecture at hand (including assuming that the image size will always be 640x640), however it is not difficult to generalize to other model configurations.
 
-## Conclusion
-The training takes very less time and the results are very impressive. This model can be extended to handle multiple classes.
+## Conclusion and Future works
+The training takes very less time and the results are very impressive. Best results can be obtained by training using the images taken at different background and lighting conditions. This model can be extended to handle multiple classes.
 
 Result:   
 ![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/result1.png)  
