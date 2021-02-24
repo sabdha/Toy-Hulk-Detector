@@ -31,7 +31,7 @@ I have collected 5 images of a toy hulk for training. The coco dataset does not 
 
 In this cell I have  annotated the toy hulks by drawing bounding box around the toy hulk in each image.   
 Click `next image` to go to the next image and `submit` when there are no more images.
-![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/annotated.png)
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/training_annotated.png)
 
 ## Data Preparation for training
 The class annotations are added.Only one class is handled. Everything is converted to tensors, classes are converted to one-hot representations that the training loop expects. How the one-hot representation is done is better explained in the 'Toy_hulk_Detector.ipynb' present in this repository. 
