@@ -23,9 +23,9 @@ The new release of Tensorflow Object Detection API comes with a notebook showing
 As given in the %%html<a href="https://colab.research.google.com/github/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb">Official Tutorial</a> , first import all the needed libraries and load the images. For labelling the images, there are two cells provided in the official tutorial. One of them has hardcoded labels while the other shows of a new OD API utility for Google Colab that allows you to label images. I have made use of the second technique to do the labelling.
 
 ## Toy Hulk data
-I have collected 10 images of a toy hulk for training. The coco dataset does not contain toy hulk (or other toy superheros), so this is a novel class. 20 images are collected for testing the model.
+I have collected 5 images of a toy hulk for training. The coco dataset does not contain toy hulk (or other toy superheros), so this is a novel class. 20 images are collected for testing the model.
 
-![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/Screenshot%202021-02-19%20092646.png)
+![alt text](https://github.com/sabdha/Toy-Hulk-Detector/blob/main/Training_set.png)
 
 ## Annotate images with bounding boxes
 
