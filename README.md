@@ -11,7 +11,17 @@ object_detection.utils, PIL
 Numpy, Matplotlib  
 
 ## Installations
-
+ ``` 
+   Standard_dataset = dataset_base.copy({   
+  'name': 'New standard_dataset',   
+  'train_info': 'path to train json file',     
+  'train_images': 'path to train images',   
+  'valid_info': 'path to test json',   
+  'valid_images': 'path to test_images',   
+  'class_names': ('label name'),    
+  'label_map': { 1:  1}#1 indicates one label.   
+}) 
+```
 !pip install -U --pre tensorflow=="2.2.0"  
 Clone the tensorflow models repository
 Install the Object Detection API
